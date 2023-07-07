@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <style>
+        /* CSS Reset     */
+        body {
+            color: rgba(228, 232, 227, 0.982);
+            margin: 0px;
+            padding: 0px;
+            font-size: 115px;
+            background-image: url('img/olympic_weight_plate_6072x4048.jpg');
+
+        }
+
+        .left {
+            margin-left: 66px;
+            /* font-size: 114px; */
+            display: inline-block;
+            /* border: 2px solid rgb(255, 34, 0); */
+            position: absolute;
+            top: 114px;
+            color: #000000;
+            font-size: 85%;
+            width: 650px;
+            text-align: center;
+
+        }
+
+        .mid {
+
+            display: block;
+            width: 40%;
+            margin: 12px auto;
+            /* font-size: 114px; */
+            /* border: 2px solid rgb(0, 255, 136); */
+            /* position: absolute;
+            top: 115px;
+            left: 2860px; */
+        }
+
+        .right {
+            /* font-size: 114px; */
+            position: absolute;
+            right: 66px;
+            top: 116px;
+            display: inline-block;
+            /* border: 2px solid rgb(235, 243, 10); */
+            width: 1500px;
+            padding: 4px 6px;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: aliceblue;
+            text-decoration: none;
+            /* to end the line under a */
+            padding: 12px 34px;
+        }
+
+        .navbar li a:hover {
+            color: rgb(15, 138, 245);
+            text-decoration: underline;
+            padding: 12px 55px;
+            font-size: 100px;
+        }
+
+        .left img {
+            width: 320px;
+            filter: invert(100%);
+            font-size: 80%;
+        }
+
+        .btn {
+            margin: 0% -213px;
+            padding: 3px 77px;
+            color: rgb(236, 234, 245);
+            ;
+            background-color: rgb(17, 18, 13);
+            margin-left: 16%;
+            font-size: 70%;
+            width: 600px;
+            border: 2px solid green;
+            border-radius: 10px;
+            cursor: pointer;
+
+        }
+
+        .btn:hover {
+            background-color: blueviolet;
+            font-family: 'Luckiest Guy', cursive;
+            font-family: 'baloo bhai', cursive;
+        }
+
+        .mid:hover {
+            font-family: 'Luckiest Guy', cursive
+        }
+
+        .container {
+            border: 19px solid #eb0630;
+            margin-top: 5%;
+            width: 1775px;
+            height: 1295px;
+            margin: 700px 53px;
+            color: #e1e0ea;
+            /* background-color: rgb(191, 134, 134); */
+            padding: 270px 403px;
+            border-radius: 60px;
+            text-decoration: unset;
+            position: absolute;
+            right: 3px;
+            top: 405px;
+        }
+
+        .form-group input {
+            font-size: 115px;
+            text-align: center;
+            display: block;
+            width: 1300px;
+            padding: 6px;
+            margin: 2px auto;
+        }
+
+        .container h3 {
+            text-align: center;
+        }
+
+        .form-group button {
+            display: block;
+            width: 43%;
+            margin: auto;
+        }
+        .My-Gym H2{
+            color: darkorchid;
+            border: 6px solid brown;
+            background-color: white;
+            display: inline-block;
+            margin: 300px 200px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+
+        <div class="left">
+            <img src="img/Gym logo.jfif" alt="">
+            <div>Gymnasiyum Fitness Club</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class=" navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h3>Join the best gym of Lahore now</h3>
+        <form action="no action.php">
+            <h1>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your location">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your gender">
+                    <button class="btn"> Submit </button>
+                </div>
+            </h1>
+        </form>
+    </div>
+    <div class="My-Gym"><H2>Welcome to My Gym</H2></div>
+
+</body>
+
+</html>
